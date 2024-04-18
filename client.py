@@ -20,7 +20,7 @@ json_data = {
 }
 
 
-# this is commmented out
+# this is commmented out ----- some stuff
 
 response = requests.post('http://localhost:30001/predict', headers=headers, json=json_data)
 if response.status_code == 200:
