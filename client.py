@@ -19,6 +19,9 @@ json_data = {
     'TotalBsmtSF': 672,
 }
 
+
+# this is commmented out
+
 response = requests.post('http://localhost:30001/predict', headers=headers, json=json_data)
 if response.status_code == 200:
     print("Successful!")
